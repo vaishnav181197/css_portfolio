@@ -1,0 +1,27 @@
+
+Git & Github :
+
+-version controll system
+-cloud platform for projects
+-git is the local end of github platform(software in local s/m)
+-github is the cloud platform,where everythinng is stored and remotely accessible
+
+
+
+folder->files
+|
+add to staging area(git add .)
+|
+add to local repo(git commit -m 'message')
+
+
+add remo-repo(git add remote <alias name> <github remo-repo url>)
+|
+push files from local-repo to remote-repo(git push <alias name> <branch name>)
+
+
+->git remote -v  = to view added remote repos
+->git status = to check weather if there is any un committed files in local repo
+
+->git config --global user.name 'username'
+->git config --global user.email 'emailid`'
